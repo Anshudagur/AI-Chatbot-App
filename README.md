@@ -94,9 +94,7 @@ git clone https://github.com/your-username/ai-chatbot-android-app.git
 | <img width="717" height="900" alt="WhatsApp Image 2026-10-16 at 1 15 29 AM" src="https://github.com/user-attachments/assets/52c1b017-c807-48cc-847a-63667cc5309a" />)|<img width="717" height="900" alt="WhatsApp Image 2026-10-16 at 1 15 29 AM (1)" src="https://github.com/user-attachments/assets/7a759715-3e46-45dc-9284-4341fe0c4b61" />|
 
 ### 🎬 Video Walkthrough
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/dfd7a977-7a92-451e-ae05-fd4b848dabbb" width="400" controls></video>
-</p>
+<video src="https://github.com/user-attachments/assets/dfd7a977-7a92-451e-ae05-fd4b848dabbb" width="400" controls></video>
 ---
 
 ## 📄 License
