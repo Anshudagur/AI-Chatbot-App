@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import io.noties.markwon.Markwon
 
-class ChatAdapter (private val  chatList: MutableList<ChatModel>,private val context: GoogleAIActivity): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class ChatAdapter (private val  chatList: MutableList<ChatModel>,private val context: ChatActivity): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     companion object {
         const val USER = 0
@@ -30,12 +30,12 @@ class ChatAdapter (private val  chatList: MutableList<ChatModel>,private val con
         viewType: Int
     ): RecyclerView.ViewHolder {
         return if(viewType == USER){
-            val view = LayoutInflater.from(parent.context).inflate(R.layout.chat_user,parent,false)
+            val view = LayoutInflater.from(parent.context).inflate(R.layout.user_chat,parent,false)
             UserViewHolder(view)
 
         }
         else{
-            val view = LayoutInflater.from(parent.context).inflate(R.layout.chat_ai,parent,false)
+            val view = LayoutInflater.from(parent.context).inflate(R.layout.ai_bot,parent,false)
             AiViewHolder(view)
 
         }
